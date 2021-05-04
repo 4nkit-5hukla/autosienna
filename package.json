@@ -60,8 +60,10 @@
     "url": "git+https://github.com/4nkit5hukla/autotraders.git"
   },
   "scripts": {
-    "build": "gatsby clean && gatsby build --prefix-paths",
+    "build": "gatsby clean && gatsby build",
+    "build-with-path": "gatsby clean && gatsby build --prefix-paths",
     "develop": "gatsby develop",
+    "clean-develop": "gatsby clean && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
